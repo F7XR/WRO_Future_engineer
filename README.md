@@ -1,4 +1,4 @@
-# 🤖 روبوت WRO للمهندسين المستقبليين | WRO Future Engineers Robot
+# 🤖 روبوت WRO مهندسي المستقبل | WRO Future Engineers Robot
 
 > روبوت ذاتي القيادة لمسابقة **World Robot Olympiad — Future Engineers**
 > A self-driving robot built for the **World Robot Olympiad — Future Engineers**
