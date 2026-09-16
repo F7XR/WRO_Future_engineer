@@ -76,13 +76,13 @@ The heart of our robot is a **genuine steering axle, exactly like RC cars:**
 ### كاميرا HuskyLens 📷 | HuskyLens AI Camera
 
 مركّبة على واجهة الروبوت الأمامية، تتعرّف على **اللافتات الملوّنة** أثناء الجولة:
-- 🟢 **إشارة خضراء ← انعطاف يميناً**
-- 🔴 **إشارة حمراء ← انعطاف يساراً**
+- 🟢 **إشارة خضراء ← انعطاف يسارا**
+- 🔴 **إشارة حمراء ← انعطاف يمينا**
 
 
 Mounted on the robot's front face, it recognizes **colored signs** during the run:
-- 🟢 **Green signal → turn right**
-- 🔴 **Red signal → turn left**
+- 🟢 **Green signal → turn left**
+- 🔴 **Red signal → turn right**
 
 ### دمج Pybricks  | Pybricks Integration
 
