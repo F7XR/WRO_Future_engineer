@@ -24,10 +24,22 @@ predictable, repeatable motion.
 |---|---|
 | 🧠 العقل/ Brain | LEGO SPIKE Prime Hub + Pybricks(Programing APP) |
 | 🎯 التوجيه / Steering |  محرك ليقو متوسط لنظام التوجيه   / Medium motor for steering system |
-| ⚙️ الدفع / Drive | عجلتان خلفيتان / 2 × rear wheels |
+| ⚙️ الدفع / Drive | عجلتان خلفيتان + <mark>تروس عزم 3:1 🟡</mark> / 2 × rear wheels + <mark>3:1 torque gears 🟡</mark> |
 | 📡 المسافات / Distance | 3 × Ultrasonic (أمام · يسار · يمين / front · left · right) |
 | 👁 الرؤية / Vision | HuskyLens AI Camera |
 | 🔌 الدمج / Integration | تلحيم مباشر — تغذية مباشرة من العقل / Soldered direct wiring |
+
+---
+
+## 🆕 جديد التحديث | What's New
+
+> 🟡 <mark>**تروس عزم بنسبة 3:1** — أضفنا في هذا التحديث مجموعة تروس بين محرك الدفع
+> والعجلات الخلفية تُضاعف العزم **ثلاثة أضعاف (×3)**: انطلاق أقوى، دفع أعلى عند
+> المنعطفات، ودوران أقل للعجلات عند البدء.</mark>
+>
+> 🟡 <mark>**3:1 torque gears** — in this update we added a gear set between the drive
+> motor and the rear wheels that multiplies the torque **threefold (×3)**: stronger
+> launches, more push through corners, and less wheel spin at start.</mark>
 
 ---
 
@@ -50,12 +62,18 @@ The heart of our robot is a **genuine steering axle, exactly like RC cars:**
 ### منظومة الدفع ⚙️ | Drivetrain
 
 
+- <mark>🟡 **جديد: تروس عزم 3:1** — مجموعة تروس بين محرك الدفع والعجلات الخلفية
+  تضاعف العزم **ثلاثة أضعاف (3:1)**: عزم انطلاق أقوى، تسارع أعلى،
+  ودوران أقل للعجلات عند الانطلاق.</mark>
 - **عجلتان خلفيتان** تنقلان قوة الدفع.
 - أثقل المكوّنات (العقل + البطارية) موضوعة **مباشرة فوق محرك الدفع الخلفي**،
   فتتحول قوة المحركات إلى أقصى تماس — بلا دوران للعجلات عند الانطلاق.
 - **مركز ثقل منخفض** يثبّت الهيكل أثناء مناورات التفادي الحادة.
 
 
+- <mark>🟡 **NEW: 3:1 torque gears** — a gear set between the drive motor and the rear
+  wheels multiplies the torque **threefold (3:1)**: stronger launch torque,
+  higher acceleration, and less wheel spin on launch.</mark>
 - **Two rear wheels** deliver the drive power.
 - The heaviest parts (hub + battery) sit **directly above the rear drive motor**,
   converting motor torque into maximum traction — no wheel spin on launch.
@@ -155,13 +173,13 @@ heading using the remaining sensors instead of stopping.
 
 ## 🚀 البدء السريع | Quick Start
 
-1. جمّع الهيكل (محور التوجيه بنمط RC + الدفع الخلفي).
+1. جمّع الهيكل (محور التوجيه بنمط RC + الدفع الخلفي <mark>مع تروس العزم 3:1 🟡</mark>).
 2. وصّل **الحساسات الترا سونيك الثلاثة** و**كاميرا HuskyLens** بمنافذ العقل.
 3. ثبّت firmware الخاص بـ **Pybricks** على عقل SPIKE Prime.
 4. ارفع البرنامج المطلوب — `Free Lab` أو `Obstacle Run`.
 5. ضع الروبوت على الأرضية واضغط تشغيل 🏁
 
-1. Assemble the chassis (RC-style steering axle + rear drive).
+1. Assemble the chassis (RC-style steering axle + rear drive <mark>with 3:1 torque gears 🟡</mark>).
 2. Connect the **3 ultrasonic sensors** and the **HuskyLens** to the hub ports.
 3. Flash the **Pybricks** firmware to the SPIKE Prime Hub.
 4. Upload the program you need — `Free Lab` or `Obstacle Run`.
@@ -176,7 +194,6 @@ heading using the remaining sensors instead of stopping.
 | **بدر بخاري — Badr Bukhari** | التصميم الميكانيكي ونظام التوجيه بنمط RC / Mechanical design & RC steering system |
 | **ماهر الحربي — Maher Al-Harbi** | البرمجيات — Pybricks، آلة الحالات، ومنطق تتبع الجدار / Software — Pybricks, FSM & wall-following logic |
 
-🧑‍🏫 **المدرب — Coach:** **أسامة محروس — Osama Mahrous**
 
 ---
 
